@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+}
+.row{
+    padding: 5px;
+}
+.row >div {
+    position: relative;
+    border : 1px solid black;
+    background-color: grey;
+    overflow: auto;
+    padding: 0px;
+    clear:both;
+}
+
+#b1{
+    position: relative;
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 5px;
+    float: right;
+    clear: left;
+    
+}
+#b2{
+    position: relative;
+    background-color: rosybrown;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 5px;
+    float: right;
+    clear: left;
+    
+}
+#b3{
+    position: relative;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 5px;
+    float: right;
+    clear: left;
+    
+}
